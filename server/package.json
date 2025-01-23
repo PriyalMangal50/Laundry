@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NOORMOHAMMED789/Laundry-Cart-BackEnd.git"
+    "url": "git+https://github.com/PriyalMangal50/Laundry/.git"
   },
   "keywords": [
     "laundry",
@@ -28,10 +28,10 @@
     "stack",
     "cart"
   ],
-  "author": "Md Zeeshan",
+  "author": "Priyal Mangal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NOORMOHAMMED789/Laundry-Cart-BackEnd/issues"
+    "url": "https://github.com/PriyalMangal50/Laundry/issues"
   },
-  "homepage": "https://github.com/NOORMOHAMMED789/Laundry-Cart-BackEnd#readme"
+  "homepage": "https://github.com/PriyalMangal50/Laundry/#readme"
 }
