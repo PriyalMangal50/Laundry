@@ -6,7 +6,7 @@ import Footer from "./Components/Footer3/Footer3";
 import OrderRow from "./Components/OrderRow/OrderRow";
 import { getToken } from "./authOperations";
 
-const URL = "https://laundry-blush-psi.vercel.app" || "http://localhost:3001";
+const URL = process.env.REACT_APP_API_URL || "http://localhost:3001";
 
 export default function Home() {
   const navigate = useNavigate();
