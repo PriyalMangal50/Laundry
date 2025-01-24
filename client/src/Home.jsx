@@ -6,7 +6,7 @@ import Footer from "./Components/Footer3/Footer3";
 import OrderRow from "./Components/OrderRow/OrderRow";
 import { getToken } from "./authOperations";
 
-const URL = "http://localhost:3001";
+const URL = "https://laundry-1-wdan.onrender.com" || "http://localhost:3001";
 
 export default function Home() {
   const navigate = useNavigate();
