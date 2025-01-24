@@ -6,8 +6,6 @@ const connection = require("./database/db.js");
 const product_list = require("./product_list.js");
 const PORT = 3001;
 
-const cors = require("cors");
-
 const allowedOrigins = [
   "https://laundry-ckk8.vercel.app", // Replace with your Vercel app's URL
 ];
