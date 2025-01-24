@@ -6,9 +6,19 @@ const connection = require("./database/db.js");
 const product_list = require("./product_list.js");
 const PORT = 3001;
 
-app.use(cors({
-    origin: "https://laundry-gmj8.vercel.app"
-}));
+const cors = require("cors");
+
+const allowedOrigins = [
+  "https://laundry-ckk8.vercel.app", // Replace with your Vercel app's URL
+];
+
+app.use(
+  cors({
+    origin: allowedOrigins,
+    credentials: true,
+  })
+);
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
